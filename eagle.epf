@@ -1,0 +1,37 @@
+[Eagle]
+Version="07 06 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/allegro.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/atmel.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/burr-brown.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/crystal.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/diode.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/led.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/pinhead.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/rcl.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/solpad.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/supply1.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/switch-alps.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/switch-tact.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/transistor-npn.lbr"
+UsedLibrary="C:/Users/Wraith/Documents/eagle/MyLib/lcd_2x16_led_backlight.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/transistor-power.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/transistor-fet.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/v-reg.lbr"
+UsedLibrary="C:/Program Files/EAGLE-7.5.0/lbr/often used/power-jack.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="0 0 1279 961"
+State=1
+Number=0
+
+[Desktop]
+Screen="1280 1024"
+Window="Win_1"
