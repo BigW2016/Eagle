@@ -9755,7 +9755,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R1206" value="0"/>
 <part name="R15" library="rcl" deviceset="R-TRIMM" device="3296W"/>
-<part name="IC3" library="linear" deviceset="78*" device="TV" technology="05"/>
+<part name="IC2" library="linear" deviceset="78*" device="TV" technology="05"/>
 </parts>
 <sheets>
 <sheet>
@@ -9817,7 +9817,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="JP1" gate="A" x="149.86" y="12.7"/>
 <instance part="R14" gate="G$1" x="175.26" y="5.08" rot="R180"/>
 <instance part="R15" gate="G$1" x="213.36" y="22.86"/>
-<instance part="IC3" gate="A1" x="-40.64" y="63.5"/>
+<instance part="IC2" gate="A1" x="-40.64" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -9934,7 +9934,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="177.8" y="33.02"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A1" pin="GND"/>
+<pinref part="IC2" gate="A1" pin="GND"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="-40.64" y1="55.88" x2="-40.64" y2="38.1" width="0.1524" layer="91"/>
 </segment>
@@ -10203,8 +10203,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-63.5" y1="55.88" x2="-63.5" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="3"/>
 <wire x1="-73.66" y1="63.5" x2="-63.5" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A1" pin="VI"/>
-<wire x1="-50.8" y1="63.5" x2="-63.5" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="63.5" x2="-50.8" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A1" pin="VI"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -10284,7 +10284,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
 <wire x1="-20.32" y1="55.88" x2="-20.32" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A1" pin="VO"/>
+<pinref part="IC2" gate="A1" pin="VO"/>
 <wire x1="-20.32" y1="63.5" x2="-20.32" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="63.5" x2="-20.32" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-20.32" y="63.5"/>
